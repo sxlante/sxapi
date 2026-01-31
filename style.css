@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'GoodTiming';
-    src: url('fonts/good-timing.ttf');
-}
-
-#baslik {
-    font-family: 'GoodTiming', sans-serif;
-    color: #00ff88;
-}
-
 #ana-baslik {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 800; /* Çok kalın yapalım ki Orbitron havası versin */
-    text-transform: uppercase;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    color: #00ff88;
 }
