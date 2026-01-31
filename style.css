@@ -7,3 +7,15 @@
     font-family: 'GoodTiming', sans-serif;
     color: #00ff88;
 }
+
+/* '#' işareti ID anlamına gelir */
+#ana-baslik {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    color: #00ff88;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+    /* ID ile çağırdığımız için buna özel gölge de ekleyelim */
+    text-shadow: 0 0 10px #00ff88; 
+}
