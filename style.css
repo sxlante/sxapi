@@ -1,5 +1,17 @@
+/* 1. Fontu sisteme tanıtıyoruz */
+@font-face {
+    font-family: 'GoodTiming';
+    /* FastAPI üzerinden ulaştığımız için yolun başına /static/ ekliyoruz */
+    src: url('/static/fonts/good-timing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Şimdi o meşhur ID'li başlığımıza uygulayalım */
 #ana-baslik {
-    /* Sonuna !important ekleyerek diğer tüm kuralları geçersiz kılıyoruz */
-    font-family: 'Courier New', Courier, monospace !important;
-    font-weight: bold !important;
+    font-family: 'GoodTiming', sans-serif;
+    font-size: 4rem;
+    color: #00ff88; /* O havalı yeşil */
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5); /* Hafif neon parlaması */
 }
