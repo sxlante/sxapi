@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GoodTiming';
+    src: url('fonts/good-timing.ttf');
+}
+
+h1 {
+    font-family: 'GoodTiming', sans-serif;
+}
