@@ -1,3 +1,5 @@
-body {
-  background-color: lightblue;
+#ana-baslik {
+    /* Sonuna !important ekleyerek diğer tüm kuralları geçersiz kılıyoruz */
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold !important;
 }
