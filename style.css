@@ -3,6 +3,7 @@
     src: url('fonts/good-timing.ttf');
 }
 
-h1 {
+#baslik {
     font-family: 'GoodTiming', sans-serif;
+    color: #00ff88;
 }
