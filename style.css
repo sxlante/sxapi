@@ -11,7 +11,7 @@
 #ana-baslik {
     font-family: 'GoodTiming', sans-serif;
     font-size: 4rem;
-    color: #00ff88; /* O havalı yeşil */
+    color: #747474; /* O havalı yeşil */
     letter-spacing: 3px;
     text-shadow: 0 0 10px rgba(0, 255, 136, 0.5); /* Hafif neon parlaması */
 }
