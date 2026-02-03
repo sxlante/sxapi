@@ -13,3 +13,7 @@ app.mount("/static", StaticFiles(directory="."), name="static")
 async def read_index():
     with open("index.html", "r", encoding="utf-8") as f:
         return f.read()
+
+@app.get("/api/")
+def test():
+    return {"test": "runing"}
